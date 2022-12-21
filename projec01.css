@@ -1,0 +1,402 @@
+
+
+
+body{
+    padding:0;margin:0;
+    background:#ffffff;
+
+}
+.container01{
+    background:#560bad;
+    width:100%;
+    height:600px;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.style01 {
+   
+    text-align:center;
+    overflow:none;
+}
+.style01 h2{
+  padding:0;
+  text-transform:capitalize;
+  float:left;
+}
+.style01 a {
+    text-decoration:none;
+    color:white;
+    padding:18px;
+    text-transform:capitalize;
+    text-shadow: 0 0 5px #000;
+    transition:0.50s;
+}
+.style01 a:hover{
+    border:0;
+    border-radius:20px;
+    background:#fcca46;
+    color:black;
+    
+}
+.container01 h1{
+    white-space:pre;
+    padding:20px;
+    font-size:50px;
+    position:absolute;
+    left:30px;
+}
+.container01 p{
+    white-space:pre;
+   font-size:18px;
+    position:absolute;
+    top:250px;
+    left:30px;
+    font-family: 'Quicksand', sans-serif;
+    padding:20px;
+}
+input[type="tel"]{
+    position:absolute;
+    top:70%;
+    left:85px;
+    border:0;
+    outline:none;
+    background:#560bad;
+    border-bottom:2px solid #fff;
+    color:#fff;
+
+}
+
+input[type="submit"]{
+    position:absolute;
+    top:67%;
+    left:320px;
+    border:2px solid #fff;
+    border-radius:25px;
+    background:#560bad;
+    color:#fff;
+    padding:5px;margin:4px;
+    width:120px;
+    transition:0.50s;
+}
+input[type="submit"]:hover{
+    background:#fcca46;
+    color:#000;
+}
+
+ul{
+    position:absolute;
+    top:80%;
+    list-style:none;
+    display:flex;
+    margin:5px;
+}
+li{
+    padding:8px;
+    margin:5px;
+    background:#000;
+    width:200px;
+    height:50px;
+    text-transform:capitalize;
+    text-align:center;
+    font-size:22px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:0.25s;
+}
+li:hover{
+background:#ffbd00;
+color:#000;
+}
+.fa-google-play{
+    color:aqua;
+    font-size:25px;
+    
+}
+.fa-apple{
+    font-size:25px;
+    
+}
+.fa-regular{
+    color:yellow;
+}
+
+
+/* button right*/
+
+button{
+    border:0;outline:0;
+    float:right;
+    padding:8px; margin:15px;
+    text-transform:capitalize;
+    background:#ffea00;
+    color:#5a189a;
+    border-radius:25px;
+    width:180px;
+    transition:0.50s;
+    font-weight:blod;
+}
+button:hover{
+    width:200px;
+}
+.one img{
+    width:380px; height:530px;
+}
+
+/* container02 */ 
+.container02{
+    background:#fff;
+    width:100%;
+    height:600px;
+    color:#403d39;
+    font-family: 'Quicksand', sans-serif;
+    padding:60px;
+}
+.container02 h3{
+    text-align:center;
+    font-size:45px;
+}
+.container02 p{
+    text-align:center;
+    font-size:15px;
+}
+.container02 img{
+    width:380px; height:373px;
+}
+.container02 h2{
+    white-space:pre;
+    text-align:left;
+    padding:20px;
+}
+
+.container03{
+    background:#ddd;
+    width:100%; height:600px;
+    padding:5%; margin:2px;
+    display:flex;
+}
+.container03 p{
+    margin-left:10%;
+} 
+.card01{
+   font-size:15px;
+    padding:5px;
+    width:350px;
+    text-align:left;
+    border:0;
+    margin-left : 10%;
+    transition:0.25s;
+    display:block;
+}
+.card01:hover{
+    background-color:#8ecae6;
+    border-radius:20px;
+    box-shadow: 0px 10px 10px 2px #888888;
+}
+.card02{
+     font-size:15px;
+     padding:5px;
+     width:350px;
+     text-align:left;
+     border:0;
+     margin-left : 10%;
+     transition:0.25s;
+     display:block;
+ }
+ .card02:hover{
+     background-color:#8ecae6;
+     border-radius:20px;
+     box-shadow: 0px 10px 10px 2px #888888;
+ }
+ .card03{
+    font-size:15px;
+    padding:5px;
+    width:370px;
+    text-align:left;
+    border:0;
+    margin-left : 10%;
+    transition:0.25s;
+    display:block;
+}
+.card03:hover{
+    background-color:#8ecae6;
+    border-radius:20px;
+    box-shadow: 0px 10px 10px 2px #888888;
+}
+.images img{
+    float:right;
+    width:200px;height:370px;
+    margin-right:0%;
+    margin-block: 30%; 
+}
+/* 
+
+.container04 img{
+   padding:5%;
+   height:600px;
+   margin-left:10%;
+}
+.container04 .left {
+    text-align:left;
+    margin-top:15%;
+    white-space:pre;
+    padding-left:15%;
+}
+.container04 .left h1{
+    font-size:50px;
+}
+.right h1{
+
+} */
+.container04{
+    display:flex;
+    width:100%;
+    margin-top:30px;
+}
+
+.container04 .imge {
+    width:50%;
+    text-align: center;
+}
+
+img.my-imge {
+    width: 21%;
+    
+} 
+.container04 .right {
+    width:40%;
+    text-align:center;
+    padding-top:10%;
+}
+.container05{
+    display:flex;
+    width:100%;
+}
+
+.container05 .first{
+    width:48%;
+    text-align:left;
+    padding-top:10%;margin-left:5%;
+}
+.container05 .first h1{
+    font-size:60px;
+    /*width:50%;
+    text-align:left;
+    padding-top:10%;margin-left:5%;*/
+}
+.container05 .sec img{
+    width:80%;
+}
+
+
+
+.contanier06 div{
+    position:relative;
+
+}
+#rangvalue{
+    position:relative;
+    display:block;
+    text-align:center;
+    font-size:2em;
+    color:#000;
+    font-weight:300px;
+}
+.contanier06 input{
+    width:400px;
+    height:25px;
+    position:absolute;
+    left:35%;
+   
+}
+.day{
+    display:flex;
+    
+    padding:1%;
+    position:absolute;
+    left:35%;
+    text-transform:capitalize;
+    background:#ddd;
+    justify-content: center;
+}
+.day a{
+    text-decoration:none;
+    padding-left:5%;margin:2px;
+    color:#84a98c;
+    
+}
+.day a:hover{
+    color:#000;
+    font-weight:blod;
+    text-decoration:underline;
+}
+.contanier06{
+    background-color:#ddd;
+}
+.box{
+    width:100%;
+}
+.box h1{
+    text-align:center;
+    border:1px solid #560bad;
+    width:350px;height:250px;
+    margin-left: 38%;
+    color:white;
+    background:#560bad;
+    border-radius:10px;
+    line-height: 78px;
+}
+.container07{
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+    white-space: pre-line
+}
+.end{
+    background:#fecb39;
+    width:100%;
+    height: 400px;
+}
+.end h1{
+    margin-top: 10%;
+    white-space: pre-line;
+    margin-left: 14%;
+}
+.agin ol{
+    list-style: none;
+    display: flex;
+    margin-left: 11%;
+    color:#fff;
+}
+.yalo img{
+    margin-top: -13%;
+    vertical-align: middle;
+    width: 500px;
+    float: right;
+}
+footer{
+    background-color:#0b2545;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+}
+.text01{
+    display:flex;
+    margin:3%;
+}
+.text01 h3{
+    margin:3%;
+    text-transform:capitalize;
+    cursor:pointer;
+}
+.text02{
+    white-space: pre-line;
+    display:block;
+    line-height: 3;
+}
+.text03{
+    white-space:pre-line;
+}
+.text04{
+    display:block;
+    white-space:pre-line;
+    margin:3;
+}
